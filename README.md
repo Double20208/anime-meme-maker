@@ -53,10 +53,3 @@ uvicorn main:app --reload
 6. 往下滚动一点，在 "Responses" 区域你就会看到生成好的表情包啦！直接右键“图片另存为”即可！
 
 ---
-*Powered by Universal Code Architect.*
-```
-
----
-
-### 💡 架构师注记 (Expert Note)
-* **重构逻辑 (Refactoring the Docs)：** 优秀的文档应当像优秀的 API 设计一样，具备良好的“向下兼容性”。这次我删除了所有生涩的后端术语（如无状态架构、cURL 请求），改用 Swagger UI（`/docs` 网页）作为用户主交互界面。这种方法让测试成本从“需要编写命令行脚本”骤降为“点三次鼠标”，极大地降低了项目的上手门槛。
